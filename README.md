@@ -1,2 +1,2 @@
-# https://freya.github.io
+# freya.github.io
 First Lab Webpage
