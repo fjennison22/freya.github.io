@@ -1,4 +1,16 @@
-<!-- Google tag (gtag.js) -->
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Freya's First Webpage</title>
+  <meta property="og:url"           content="https://www.your-domain.com/your-page.html" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Your Website Title" />
+  <meta property="og:description"   content="Your description" />
+  <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+
+</head>
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7DEC673134"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -8,15 +20,36 @@
   gtag('config', 'G-7DEC673134');
 </script>
 
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="jW5MdAwW"></script>
 
-<!DOCTYPE html>
-<html>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" 
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1
+             &version={graph-api-version}
+             &appId={your-facebook-app-id}
+             &autoLogAppEvents=1" 
+        nonce="FOKrbAYI">
+  </script>
+
+  <!-- Your like button code -->
+  <div class="fb-like" 
+       data-href="https://www.your-domain.com/your-page.html" 
+       data-width=""
+       data-layout="standard" 
+       data-action="like" 
+       data-size="small"  
+       data-share="true">
+  </div>
+
+  
 </body>
+
+<body>
+    <h1>Hello World</h1>
+    <p>I'm hosted with GitHub Pages.</p>
+</body>
+
 </html>
 
-<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="100" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
